@@ -1,0 +1,4 @@
+Este exemplo utiliza um protocolo de comunicação simples, com mensagens no formato "tipo|dados". 
+O tipo pode ser "MSG" para mensagens de texto ou "FILE" para arquivos. Os dados podem ser uma mensagem de texto ou o nome do arquivo. 
+O servidor recebe a mensagem do cliente, verifica o tipo de mensagem e responde de acordo. 
+O cliente envia uma mensagem de texto e um arquivo para o servidor e recebe a resposta correspondente.
